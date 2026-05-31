@@ -1,0 +1,8 @@
+.m2/
+target/
+*.log
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
