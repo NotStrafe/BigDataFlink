@@ -55,7 +55,7 @@ docker compose up -d postgres kafka jobmanager taskmanager
 
 ```bash
 docker compose exec kafka \
-  /opt/bitnami/kafka/bin/kafka-topics.sh \
+  /opt/kafka/bin/kafka-topics.sh \
   --bootstrap-server kafka:9092 \
   --create \
   --if-not-exists \
